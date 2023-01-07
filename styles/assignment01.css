@@ -6,14 +6,11 @@
 }
 
 /* header */
+
 header {
     background-image: url(../images/banner/banner3.png);
     background-repeat: no-repeat;
-    /* aspect-ratio: 16 / 8; */
     background-size: 100% 100%;
-    /* height: max-content; */
-    /* max-width: 1600px; */
-    /* height: 800px; */
     color: white;
     margin-bottom: 130px;
 }
@@ -21,9 +18,6 @@ header {
 .header-text {
     text-align: right;
     padding: 216px 180px 166px 680px;
-    /* margin-right: 230px;
-    margin-left: 845px;
-    padding-top: 216px; */
 }
 
 .header-text h1 {
@@ -33,7 +27,6 @@ header {
 }
 
 .header-text p {
-    /* padding-left: 30px; */
     margin-bottom: 32px;
     font-size: 16px;
 }
@@ -49,12 +42,14 @@ header {
 }
 
 /* main */
+
 main {
     margin-left: 230px;
     margin-right: 230px;
 }
 
 /* failures */
+
 .failures {
     display: flex;
     gap: 87px;
@@ -94,7 +89,8 @@ main {
     padding-right: 10px;
 }
 
-/* Plans */
+/* My Plans */
+
 .plans {
     text-align: center;
     margin-bottom: 130px;
@@ -107,7 +103,6 @@ main {
 .plan-icons {
     display: flex;
     justify-content: space-between;
-    /* text-align: center; */
     gap: 86px;
 }
 
@@ -129,12 +124,12 @@ main {
 }
 
 /* Call Now */
+
 .call-now {
     background-image: url(../images/watch.png), url(../images/gradient1.png);
     padding: 65px;
     background-blend-mode: overlay;
     margin-bottom: 130px;
-    /* background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%); */
     border-radius: 8px;
 
 }
@@ -144,6 +139,7 @@ main {
 }
 
 /* Contact Section */
+
 .write-me {
     text-align: center;
     margin-bottom: 130px;
@@ -161,7 +157,6 @@ textarea {
     width: 80%;
     margin-bottom: 24px;
     font-size: 16px;
-    /* font-weight: 400; */
     padding: 0 30px;
     border-radius: 8px;
     border: 1px solid #737272;
@@ -174,6 +169,7 @@ textarea {
 }
 
 /* Footer */
+
 footer {
     display: flex;
     gap: 130px;
@@ -206,20 +202,24 @@ footer {
     margin-right: 18px;
     text-decoration: none;
 }
+
 h4 {
     font-weight: 600;
     font-size: 25px;
     margin-bottom: 30px;
 }
-#sub-email{
+
+#sub-email {
     background: #151414;
     border: 1px solid #FFFFFF;
-border-radius: 8px;
-color: #F3F3F3;
-width: 325px;
-height: 64px;
+    border-radius: 8px;
+    color: #F3F3F3;
+    width: 325px;
+    height: 64px;
 }
-#subscribe, #submit {
+
+#subscribe,
+#submit {
     background: #005FAC;
     color: white;
 }
